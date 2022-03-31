@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng build && node dist/server/app.js",
+    "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
@@ -11,7 +11,7 @@
     "serve:ssr": "node dist/universal-pwa-tailwind/server/main.js",
     "build:ssr": "ng build && ng run universal-pwa-tailwind:server",
     "prerender": "ng run universal-pwa-tailwind:prerender",
-    "start:heroku": "node dist/server",
+    "start:heroku": "node dist/server/main",
     "postinstall": "npm run build:ssr"
   },
   "private": true,
