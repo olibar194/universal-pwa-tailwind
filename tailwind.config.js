@@ -1,11 +1,7 @@
 module.exports = {
-  prefix: "",
-  content: ["./src/**/*.{html,ts}"],
-  theme: {
-    extend: {},
+  mode: "jit",
+  purge: {
+    enabled: true,
+    content: ["./src/**/*.{html,ts}"],
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
 };
