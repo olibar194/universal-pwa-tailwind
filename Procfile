@@ -1,1 +1,1 @@
-web: node src/server.ts
+web: node dist/universal-pwa-tailwind/server/main.js
