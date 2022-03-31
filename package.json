@@ -11,7 +11,7 @@
     "serve:ssr": "node dist/universal-pwa-tailwind/server/main.js",
     "build:ssr": "ng build && ng run universal-pwa-tailwind:server",
     "prerender": "ng run universal-pwa-tailwind:prerender",
-    "start:heroku": "node dist/server/main",
+    "start:heroku": "node dist/universal-pwa-tailwind/server/main",
     "postinstall": "npm run build:ssr"
   },
   "private": true,

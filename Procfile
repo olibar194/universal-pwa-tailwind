@@ -1,1 +1,1 @@
-web: node dist/universal-pwa-tailwind/server/main.js
+web: npm run start:heroku
